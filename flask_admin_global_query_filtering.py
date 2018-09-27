@@ -234,7 +234,7 @@ admin.add_view(ModelView(Page, db.session))
 admin.add_view(WordView(Word, db.session))
 
 
-def add_db_samles():
+def add_db_samples():
     dummy_data = {
         'user1@email.com': {
             'harry potter': {
@@ -243,11 +243,11 @@ def add_db_samles():
             },
             'egg cookbook': {
                 5: ['a', 'recipe', 'for', 'scrambled', 'eggs'],
-                6: ['no', 'really']
+                6: ['no', 'really', 'yummy', 'eggs']
             }
         },
         'user2@email.com': {
-            'da vince code': {
+            'da vinci code': {
                 11: ['some', 'action'],
                 12: ['some', 'romance']
             }
@@ -274,4 +274,4 @@ def add_db_samles():
     db.session.commit()
 
 
-add_db_samles()
+add_db_samples()
