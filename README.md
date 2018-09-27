@@ -25,3 +25,4 @@ https://bitbucket.org/zzzeek/sqlalchemy/wiki/UsageRecipes/PreFilteredQuery
 
 https://github.com/miguelgrinberg/sqlalchemy-soft-delete/blob/master/app.py
 
+https://github.com/flask-admin/flask-admin/blob/master/examples/auth-flask-login/app.py
